@@ -18,4 +18,4 @@ To use this project, you need to provide a list of company names as input. The s
 # Notes
 1. This project uses Selenium to automate the process of searching for company Twitter pages and extracting email addresses from their bios.
 2. The get_comapany_email_from_twitter_link function assumes that the email address is located in the company's Twitter bio, and uses a regular expression to extract it. This may not always be the case, so the function may not work for all companies.
-3. The scrape_twitter_emails function only searches for the first search result on Google. If a company has multiple Twitter pages, the function may not find the correct one.
+3. The scrape_twitter_emails function only searches for the first search result on Google.
